@@ -538,6 +538,17 @@ button {
     float: left;
     border-radius: 34px;
 
+}
+
+
+/* contact section end */
+
+
+/* blog section start */
+
+.blog_section {
+    width: 100%;
+    float: left;
     background-image: url(../images/blog-bg.png);
     height: auto;
     background-repeat: no-repeat;
