@@ -231,10 +231,11 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../assets/images/banner-bg.png);
     height: auto;
     background-size: 100%;
     padding: 0px 0px 20px 0px;
+    background-repeat: no-repeat;
 }
 
 .bg-light {
@@ -243,9 +244,11 @@ button {
 
 .logo {
     width: 100%;
-    float: left;
     text-align: center;
     padding: 20px 0px 50px 0px;
+    max-width: 200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .logo_mobile {
@@ -393,7 +396,7 @@ button {
 }
 
 .read_bt a:hover {
-    background-color: #2b2278;
+    background-color: #981f1f;
     color: #ffffff;
 }
 
